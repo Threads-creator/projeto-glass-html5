@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tudo Sobre o Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/media.css"/>
+</head>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="_imagens\multimidia.png"/>
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ol type="1" start="5">
+                    <li onmouseover="mudaImagem('_imagens/home.png')" onmouseout="mudaImagem('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaImagem('_imagens/especificacoes.png')" onmouseout="mudaImagem('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaImagem('_imagens/fotos.png')" onmouseout="mudaImagem('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaImagem('_imagens/multimidia.png')" onmouseout="mudaImagem('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaImagem('_imagens/contato.png')" onmouseout="mudaImagem('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ol>
+            </nav>
+        </header>
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-noticia">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica" controls>
+                        <source src="_media/Conclusão.m4a" type="audio/x-aac"/>
+                        <source src="_media/Conclusão.mp3.mp3" type="audio/mpeg"/>
+                        <source src="_media/Conclusão.oggvorbis.ogg" type="audio/ogg"/>
+                        /*
+                        mensagens de erro aqui
+                        */
+                    </audio>
+                    <video id="filme" controls poster="_imagens/video-mini03.jpg">
+                        <source src="_media/VID-20190414-WA0022.mp4" type="video/mpeg"/>
+                        <source src="_media/VID-20190414-WA0022.webmhd.webm" type="video/webmhd"/>
+                        <source src="_media/VID-20190414-WA0022.oggtheora.ogv" type="video/ogg"/>
+                    </video>
+                    
+                    
+                </div>
+        
+            </article>
+        </section>
+        <footer id="rodape">
+            <p>Copyright &copy; 2013 - by Gustavo Guanabara</br> Facebook | Twitter</p>
+        </footer>
+
+    </div>
+</body>
+</html>
